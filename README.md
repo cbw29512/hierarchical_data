@@ -1,7 +1,11 @@
 # hierarchical_data
+Author: Christopher Wilson
+Assisted: Sean and Koren
+Website was utilized heavily: https://django-mptt.readthedocs.io/en/latest/index.html
+Installed: poetry add django-mptt and Django
+
 Hierarchical Data and You
  
-Due Friday by 11:59pm Points 15 Submitting a website url Available Jun 11 at 12am - Jun 15 at 11:59pm 5 days
 Sometimes when categorizing data, there are potentially infinite ways that the data can be organized. For example, a file path for an operating system includes all the parent folders and the the location of the item itself, like this:
 
 /Users/jkaufeld/demo/test.py
