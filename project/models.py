@@ -8,6 +8,7 @@ class Tree(MPTTModel):
     parent = TreeForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name="children")
 
     class MPTTMeta:
+        level_attr = 'mptt_level'
         order_insertion_by = ['name']
 
     def __str__(self):
